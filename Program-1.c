@@ -11,13 +11,9 @@
 #include <stdio.h>
 int main() 
 {
-                      //Declare the string
-                      char a[100];
+char str[20];                      //Declare the string
 printf("Enter a String: ");
-scanf("%s",a);
-printf("the input string is %s",a);
-
-                      //read the string from user
-                      //Print the string
+scanf("%s",str);                      //read the string from user
+ printf("The input string is %s",str);                     //Print the string
 return 0;
 }
